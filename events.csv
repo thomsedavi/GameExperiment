@@ -1,2 +1,2 @@
-worker|would you like to build another sawmill, %s?|wood
-wood|would you like to build another house, %s?|worker
+worker,would you like to build another sawmill %s?,wood
+wood,would you like to build another house %s?,worker

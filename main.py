@@ -33,7 +33,7 @@ class Event:
 events = []
 
 with open('events.csv', 'rb') as csvFile:
-    eventReader = csv.reader(csvFile, delimiter='|', quotechar='"')
+    eventReader = csv.reader(csvFile, delimiter=',', quotechar='"')
     for event in eventReader:
         events.append(Event(Requirement(event[0]), event[1], Result(event[2])))
 
